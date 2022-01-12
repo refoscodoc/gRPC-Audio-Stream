@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cr3NpjzgCKDZuA5qz9mzMiAbbY5vcxqmpTCZQL0Kz6/1oGgBhPE3oscy/SsaI8yX64KtK0FbKmQB2CMhM6G6fg==",
+  "success": true,
+  "projectFilePath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj",
+  "expectedPackageFiles": [
+    "/home/alberto/.nuget/packages/cscore/1.2.1.2/cscore.1.2.1.2.nupkg.sha512",
+    "/home/alberto/.nuget/packages/google.protobuf/3.18.0/google.protobuf.3.18.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.aspnetcore/2.41.0/grpc.aspnetcore.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.aspnetcore.server/2.41.0/grpc.aspnetcore.server.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.41.0/grpc.aspnetcore.server.clientfactory.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.core.api/2.41.0/grpc.core.api.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.net.client/2.41.0/grpc.net.client.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.net.clientfactory/2.41.0/grpc.net.clientfactory.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.net.common/2.41.0/grpc.net.common.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.tools/2.41.0/grpc.tools.2.41.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.configuration/3.0.3/microsoft.extensions.configuration.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.configuration.abstractions/3.0.3/microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.configuration.binder/3.0.3/microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.dependencyinjection/3.0.3/microsoft.extensions.dependencyinjection.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.3/microsoft.extensions.dependencyinjection.abstractions.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.http/3.0.3/microsoft.extensions.http.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.logging/3.0.3/microsoft.extensions.logging.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.3/microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.options/3.0.3/microsoft.extensions.options.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.extensions.primitives/3.0.3/microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "/home/alberto/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CSCore 1.2.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CSCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

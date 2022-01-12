@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>gRPC_Audio-Client</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CSCore" Version="1.2.1.2" />
+      <PackageReference Include="Grpc.AspNetCore" Version="2.41.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="./Proto/audioStreaming.proto" GrpcServices="Both" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+obj/Debug/net6.0/./Proto/AudioStreaming.cs \
+obj/Debug/net6.0/./Proto/AudioStreamingGrpc.cs: /home/alberto/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/empty.proto\
+ Proto/audioStreaming.proto
