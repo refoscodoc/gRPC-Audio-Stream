@@ -46,6 +46,10 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.42.0-pre1, )"
+            },
+            "Grpc.Net.Client.Web": {
+              "target": "Package",
+              "version": "[2.42.0-pre1, )"
             }
           },
           "imports": [

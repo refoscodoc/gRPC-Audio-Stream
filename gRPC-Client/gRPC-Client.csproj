@@ -11,6 +11,7 @@
     <ItemGroup>
 <!--      <PackageReference Include="CSCore.Ffmpeg" Version="1.2.0-beta1" />-->
       <PackageReference Include="Grpc.AspNetCore" Version="2.42.0-pre1" />
+      <PackageReference Include="Grpc.Net.Client.Web" Version="2.42.0-pre1" />
     </ItemGroup>
 
     <ItemGroup>
