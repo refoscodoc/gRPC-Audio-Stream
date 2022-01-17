@@ -5,15 +5,20 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>gRPC_Audio-Client</RootNamespace>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CSCore" Version="1.2.1.2" />
-      <PackageReference Include="Grpc.AspNetCore" Version="2.41.0" />
+<!--      <PackageReference Include="CSCore.Ffmpeg" Version="1.2.0-beta1" />-->
+      <PackageReference Include="Grpc.AspNetCore" Version="2.42.0-pre1" />
     </ItemGroup>
 
     <ItemGroup>
         <Protobuf Include="./Proto/audioStreaming.proto" GrpcServices="Both" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\..\Downloads\cscore-openal\CSCore\CSCore.csproj" />
     </ItemGroup>
 
 </Project>

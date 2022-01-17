@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "E3+61C/008azDlko1/ly578fIUr5C8bJT4DG0AqVbYg=",
+  "Hash": "x0sN2JooePqLKWc34dl4eXMAwh/8cgvmy6KXk9jm8UM=",
   "Source": "gRPC-Client",
   "BasePath": "_content/gRPC-Client",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj",
+      "Version": 2,
+      "Source": "CSCore",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "gRPC-Client/wwwroot",

@@ -1,5 +1,6 @@
 
  
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Google.Protobuf.WellKnownTypes;
 using gRPC_Audio.Services;
@@ -17,14 +18,25 @@ namespace GrpcAudioStreaming.Client
             var format = client.GetFormat(new Empty());
             var audioStream = client.GetStream(new Empty());
 
-            Console.WriteLine(format);
-        
-            using var audioPlayer = new AudioPlayer(format.ToWaveFormat());
-            audioPlayer.Play();
-
-            await foreach (var sample in audioStream.ResponseStream.ReadAllAsync())
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
-                audioPlayer.AddSample(sample.Data.ToByteArray());
+                using var audioPlayerFfmpg = new AudioPlayerFfmpeg(format.ToWaveFormat());
+                audioPlayerFfmpg.Play();
+                
+                await foreach (var sample in audioStream.ResponseStream.ReadAllAsync())
+                {
+                    audioPlayerFfmpg.AddSample(sample.Data.ToByteArray());
+                }
+            }
+            else
+            {
+                using var audioPlayer = new AudioPlayer(format.ToWaveFormat());
+                audioPlayer.Play(); 
+                
+                await foreach (var sample in audioStream.ResponseStream.ReadAllAsync())
+                {
+                    audioPlayer.AddSample(sample.Data.ToByteArray());
+                }
             }
         }
     }

@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using CSCore;
-using CSCore.DMO;
 using CSCore.SoundOut;
 using CSCore.Streams;
 
