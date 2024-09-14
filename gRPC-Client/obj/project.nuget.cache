@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HePFY67184hWOYga6G1mSj/fnZO1nyX0nYTQlg1FrZIFwpNLzOdtyajpY995QIuBbCccc/RXd/8QYGlQKpIZOA==",
+  "dgSpecHash": "kqmQMjZbuGAn3mmMtDDKMWjXZ/M8EDQ0tn2QfkO/0KpO02M/oHhfCSp8MPicdr7i+3ubkS8TPBtEGQcH2ahCag==",
   "success": true,
   "projectFilePath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj",
   "expectedPackageFiles": [

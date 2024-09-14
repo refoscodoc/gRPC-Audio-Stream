@@ -886,7 +886,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CSCore >= 1.0.0",
+      "CSCore >= 1.2.1.2",
       "Grpc.AspNetCore >= 2.42.0-pre1",
       "Grpc.Net.Client.Web >= 2.42.0-pre1"
     ]
@@ -932,6 +932,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "CSCore": {
+            "target": "Package",
+            "version": "[1.2.1.2, )"
+          },
           "Grpc.AspNetCore": {
             "target": "Package",
             "version": "[2.42.0-pre1, )"

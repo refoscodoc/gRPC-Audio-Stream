@@ -4,6 +4,7 @@ using System.Diagnostics;
 using CSCore;
 using CSCore.SoundOut;
 using CSCore.Streams;
+using ISoundOut = CSCore.SoundOut.ISoundOut;
 
 
 namespace gRPC_Audio.Services;
@@ -15,7 +16,7 @@ public class AudioPlayerFfmpeg : IDisposable
 
     public AudioPlayerFfmpeg(WaveFormat waveFormat)
     {
-        _wavePlayer = new ALSoundOut();
+        _wavePlayer = new WasapiOut();
         _bufferedWaveProvider = new WriteableBufferingSource(waveFormat, 5000);
         _wavePlayer.Initialize(_bufferedWaveProvider);
     }
