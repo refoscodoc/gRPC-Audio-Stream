@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cr3NpjzgCKDZuA5qz9mzMiAbbY5vcxqmpTCZQL0Kz6/1oGgBhPE3oscy/SsaI8yX64KtK0FbKmQB2CMhM6G6fg==",
+  "dgSpecHash": "rvLlaU43yCVkaBdRkMmqpd6TGHNqnA/jNgbxk3DLWjzXwJ2KZTS9/XF2kZp3FWn2jv0nw6CJhpvawuYKXrYAmg==",
   "success": true,
-  "projectFilePath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj",
+  "projectFilePath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj",
   "expectedPackageFiles": [
     "/home/alberto/.nuget/packages/cscore/1.2.1.2/cscore.1.2.1.2.nupkg.sha512",
     "/home/alberto/.nuget/packages/google.protobuf/3.18.0/google.protobuf.3.18.0.nupkg.sha512",
@@ -31,10 +31,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CSCore 1.2.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'CSCore 1.2.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "CSCore",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]

@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj": {}
+    "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj": {}
   },
   "projects": {
-    "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj": {
+    "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj",
+        "projectUniqueName": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj",
         "projectName": "gRPC-Server",
-        "projectPath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/gRPC-Server.csproj",
+        "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj",
         "packagesPath": "/home/alberto/.nuget/packages/",
-        "outputPath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/obj/",
+        "outputPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alberto/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/avalonia-ci/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "CSCore": {
               "target": "Package",
@@ -54,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/alberto/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

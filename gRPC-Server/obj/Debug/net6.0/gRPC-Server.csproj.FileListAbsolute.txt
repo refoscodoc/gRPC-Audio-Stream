@@ -33,3 +33,44 @@
 /home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/obj/Debug/net6.0/gRPC-Server.pdb
 /home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/obj/Debug/net6.0/gRPC-Server.genruntimeconfig.cache
 /home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Server/bin/Debug/net6.0/CSCore.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/appsettings.Development.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/appsettings.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server.staticwebassets.runtime.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server.deps.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server.runtimeconfig.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/gRPC-Server.pdb
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/CSCore.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Google.Protobuf.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.AspNetCore.Server.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.Core.Api.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.Net.Client.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.Net.ClientFactory.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/bin/Debug/net6.0/Grpc.Net.Common.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.csproj.AssemblyReference.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.GeneratedMSBuildEditorConfig.editorconfig
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.AssemblyInfoInputs.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.AssemblyInfo.cs
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.csproj.CoreCompileInputs.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.MvcApplicationPartsAssemblyInfo.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.RazorAssemblyInfo.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.RazorAssemblyInfo.cs
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.sourcelink.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets.build.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets.development.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets/msbuild.gRPC-Server.Microsoft.AspNetCore.StaticWebAssets.props
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets/msbuild.build.gRPC-Server.props
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.gRPC-Server.props
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.gRPC-Server.props
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/staticwebassets.pack.json
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/scopedcss/bundle/gRPC-Server.styles.css
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/scopedcss/projectbundle/gRPC-Server.bundle.scp.css
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Ser.5624C68B.Up2Date
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/refint/gRPC-Server.dll
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.pdb
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.genruntimeconfig.cache
+/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/ref/gRPC-Server.dll

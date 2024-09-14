@@ -1,34 +1,95 @@
 {
   "format": 1,
   "restore": {
-    "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Client/gRPC-Client.csproj": {}
+    "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj": {}
   },
   "projects": {
-    "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Client/gRPC-Client.csproj": {
+    "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Client/gRPC-Client.csproj",
-        "projectName": "gRPC-Client",
-        "projectPath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Client/gRPC-Client.csproj",
+        "projectUniqueName": "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj",
+        "projectName": "CSCore",
+        "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj",
         "packagesPath": "/home/alberto/.nuget/packages/",
-        "outputPath": "/home/alberto/Documents/C Sharp/gRPC/gRPC-Audio/gRPC-Client/obj/",
+        "outputPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alberto/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/avalonia-ci/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alberto/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj",
+        "projectName": "gRPC-Client",
+        "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj",
+        "packagesPath": "/home/alberto/.nuget/packages/",
+        "outputPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj": {
-                "projectPath": "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj"
+              "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj": {
+                "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj"
               }
             }
           }
@@ -40,8 +101,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Grpc.AspNetCore": {
               "target": "Package",
@@ -58,7 +119,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,73 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj",
-        "projectName": "CSCore",
-        "projectPath": "/home/alberto/Downloads/cscore-openal/CSCore/CSCore.csproj",
-        "packagesPath": "/home/alberto/.nuget/packages/",
-        "outputPath": "/home/alberto/Downloads/cscore-openal/CSCore/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/alberto/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/avalonia-ci/api/v2": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Umbraco.Cms.Core": {
-              "target": "Package",
-              "version": "[9.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/alberto/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC-Client", "gRPC-Client\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC-Server", "gRPC-Server\gRPC-Server.csproj", "{C75F3F9B-17AA-4A60-AC36-F8D548125359}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSCore", "cscore-master\CSCore\CSCore.csproj", "{CAD83639-A746-4D04-9417-90D65D4AD82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSCore.Ffmpeg", "cscore-master\CSCore.Ffmpeg\CSCore.Ffmpeg.csproj", "{AF50C0E3-0B3F-4885-B78F-37A459291E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{C75F3F9B-17AA-4A60-AC36-F8D548125359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75F3F9B-17AA-4A60-AC36-F8D548125359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75F3F9B-17AA-4A60-AC36-F8D548125359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD83639-A746-4D04-9417-90D65D4AD82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD83639-A746-4D04-9417-90D65D4AD82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD83639-A746-4D04-9417-90D65D4AD82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD83639-A746-4D04-9417-90D65D4AD82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF50C0E3-0B3F-4885-B78F-37A459291E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF50C0E3-0B3F-4885-B78F-37A459291E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF50C0E3-0B3F-4885-B78F-37A459291E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF50C0E3-0B3F-4885-B78F-37A459291E41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
