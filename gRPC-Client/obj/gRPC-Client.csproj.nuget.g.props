@@ -13,9 +13,10 @@
     <SourceRoot Include="/home/alberto/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)grpc.tools/2.42.0/build/Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools/2.42.0/build/Grpc.Tools.props')" />
+    <Import Project="$(NuGetPackageRoot)grpc.tools/2.66.0/build/Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools/2.66.0/build/Grpc.Tools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">/home/alberto/.nuget/packages/grpc.tools/2.42.0</PkgGrpc_Tools>
+    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">/home/alberto/.nuget/packages/grpc.tools/2.66.0</PkgGrpc_Tools>
+    <PkgGoogle_Protobuf_Tools Condition=" '$(PkgGoogle_Protobuf_Tools)' == '' ">/home/alberto/.nuget/packages/google.protobuf.tools/3.28.1</PkgGoogle_Protobuf_Tools>
   </PropertyGroup>
 </Project>

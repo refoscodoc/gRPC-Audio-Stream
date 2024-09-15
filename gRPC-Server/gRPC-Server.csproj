@@ -9,11 +9,23 @@
 
     <ItemGroup>
       <PackageReference Include="CSCore" Version="1.2.1.2" />
-      <PackageReference Include="Grpc.AspNetCore" Version="2.41.0" />
+      <PackageReference Include="Google.Protobuf" Version="3.28.1" />
+      <PackageReference Include="Google.Protobuf.Tools" Version="3.28.1" />
+      <PackageReference Include="Grpc.AspNetCore" Version="2.65.0" />
+      <PackageReference Include="Grpc.Core" Version="2.46.6" />
+      <PackageReference Include="Grpc.Net.Client.Web" Version="2.65.0" />
+      <PackageReference Include="Grpc.Tools" Version="2.66.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
         <Protobuf Include="./Proto/audioStreaming.proto" GrpcServices="Both" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\cscore-master\CSCore\CSCore.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -11,8 +11,15 @@
     <ItemGroup>
 <!--      <PackageReference Include="CSCore.Ffmpeg" Version="1.2.0-beta1" />-->
       <PackageReference Include="CSCore" Version="1.2.1.2" />
-      <PackageReference Include="Grpc.AspNetCore" Version="2.42.0-pre1" />
-      <PackageReference Include="Grpc.Net.Client.Web" Version="2.42.0-pre1" />
+      <PackageReference Include="Google.Protobuf" Version="3.28.1" />
+      <PackageReference Include="Google.Protobuf.Tools" Version="3.28.1" />
+      <PackageReference Include="Grpc.AspNetCore" Version="2.65.0" />
+      <PackageReference Include="Grpc.Core" Version="2.46.6" />
+      <PackageReference Include="Grpc.Net.Client.Web" Version="2.65.0" />
+      <PackageReference Include="Grpc.Tools" Version="2.66.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
@@ -20,7 +27,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="../cscore-master/CSCore/CSCore.csproj" />
+      <ProjectReference Include="..\cscore-master\CSCore\CSCore.csproj" />
+      <ProjectReference Include="..\gRPC-Server\gRPC-Server.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Grpc.Net.Client">
+        <HintPath>..\..\..\.nuget\packages\grpc.net.client\2.65.0\lib\net8.0\Grpc.Net.Client.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
