@@ -18,7 +18,7 @@ namespace GrpcAudioStreaming.Client
             };
             
             var channel = GrpcChannel.ForAddress(
-                "http://localhost:5064/",
+                "http://localhost:5001/",
                 new GrpcChannelOptions
                 {
                     HttpHandler = new GrpcWebHandler(httpHandler)

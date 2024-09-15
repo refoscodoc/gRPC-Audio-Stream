@@ -1,12 +1,28 @@
+using System.Net;
 using gRPC_Client.Services;
 using gRPC_Client.Services.Interfaces;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 5001, listenOptions =>
+    {
+        listenOptions.Protocols = HttpProtocols.Http2;
+        // listenOptions.UseHttps("<path to .pfx file>",
+        //     "<certificate password>");
+    });
+});
+
+builder.Services.AddCors();
 
 builder.Services.AddGrpc();
 builder.Services.AddSingleton<IAudioSampleSource>(new AudioSampleSource(@"./Wav/audio.wav"));
 
 var app = builder.Build();
+
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
