@@ -18,10 +18,10 @@
       "Google.Protobuf.Tools/3.28.1": {
         "type": "package",
         "build": {
-          "build/Google.Protobuf.Tools.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildCrossTargeting/Google.Protobuf.Tools.targets": {}
+          "buildCrossTargeting/_._": {}
         }
       },
       "Grpc.AspNetCore/2.65.0": {
@@ -1130,12 +1130,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CSCore >= 1.2.1.2",
+      "CSCore >= 1.0.0",
       "Google.Protobuf >= 3.28.1",
-      "Google.Protobuf.Tools >= 3.28.1",
       "Grpc.AspNetCore >= 2.65.0",
-      "Grpc.Core >= 2.46.6",
-      "Grpc.Net.Client.Web >= 2.65.0",
+      "Grpc.Net.Client >= 2.65.0",
+      "Grpc.Net.ClientFactory >= 2.65.0",
       "Grpc.Tools >= 2.66.0",
       "gRPC-Server >= 1.0.0"
     ]
@@ -1184,15 +1183,7 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "CSCore": {
-            "target": "Package",
-            "version": "[1.2.1.2, )"
-          },
           "Google.Protobuf": {
-            "target": "Package",
-            "version": "[3.28.1, )"
-          },
-          "Google.Protobuf.Tools": {
             "target": "Package",
             "version": "[3.28.1, )"
           },
@@ -1200,11 +1191,11 @@
             "target": "Package",
             "version": "[2.65.0, )"
           },
-          "Grpc.Core": {
+          "Grpc.Net.Client": {
             "target": "Package",
-            "version": "[2.46.6, )"
+            "version": "[2.65.0, )"
           },
-          "Grpc.Net.Client.Web": {
+          "Grpc.Net.ClientFactory": {
             "target": "Package",
             "version": "[2.65.0, )"
           },

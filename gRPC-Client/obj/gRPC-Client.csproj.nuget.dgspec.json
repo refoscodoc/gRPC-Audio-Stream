@@ -107,15 +107,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "CSCore": {
-              "target": "Package",
-              "version": "[1.2.1.2, )"
-            },
             "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.28.1, )"
-            },
-            "Google.Protobuf.Tools": {
               "target": "Package",
               "version": "[3.28.1, )"
             },
@@ -123,11 +115,11 @@
               "target": "Package",
               "version": "[2.65.0, )"
             },
-            "Grpc.Core": {
+            "Grpc.Net.Client": {
               "target": "Package",
-              "version": "[2.46.6, )"
+              "version": "[2.65.0, )"
             },
-            "Grpc.Net.Client.Web": {
+            "Grpc.Net.ClientFactory": {
               "target": "Package",
               "version": "[2.65.0, )"
             },

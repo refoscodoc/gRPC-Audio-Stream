@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.Listen(IPAddress.Any, 5001, listenOptions =>
-    {
-        listenOptions.Protocols = HttpProtocols.Http2;
-        // listenOptions.UseHttps("<path to .pfx file>",
-        //     "<certificate password>");
-    });
-});
+// builder.WebHost.ConfigureKestrel(options =>
+// {
+//     options.Listen(IPAddress.Any, 7273, listenOptions =>
+//     {
+//         listenOptions.Protocols = HttpProtocols.Http2;
+//         // listenOptions.UseHttps("<path to .pfx file>",
+//         //     "<certificate password>");
+//     });
+// });
 
 builder.Services.AddCors();
 
@@ -40,6 +40,7 @@ app.UseRouting();
 // app.UseAuthorization();
 
 app.MapGrpcService<AudioStreamService>();
+app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 
 // app.UseEndpoints(endpoints =>
 // {
