@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x3U9H73qacGOGxoZarIPXDcrih4i8FnYMcSB7DQkglrEUYJy26xoh61led/7JjtdPJnpARukmuwi5nOXA+Wbfw==",
+  "dgSpecHash": "/GsKjyLf0Ssb6WhIC4Pph7V4HYTqOSEXQ+Bu0mtn83KKGzAa4pWoo+6iAr6e8erKUHCLVx7pGClDGO9GtVD1tA==",
   "success": true,
   "projectFilePath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Client/gRPC-Client.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/home/alberto/.nuget/packages/grpc.aspnetcore/2.65.0/grpc.aspnetcore.2.65.0.nupkg.sha512",
     "/home/alberto/.nuget/packages/grpc.aspnetcore.server/2.65.0/grpc.aspnetcore.server.2.65.0.nupkg.sha512",
     "/home/alberto/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.65.0/grpc.aspnetcore.server.clientfactory.2.65.0.nupkg.sha512",
+    "/home/alberto/.nuget/packages/grpc.aspnetcore.web/2.65.0/grpc.aspnetcore.web.2.65.0.nupkg.sha512",
     "/home/alberto/.nuget/packages/grpc.core/2.46.6/grpc.core.2.46.6.nupkg.sha512",
     "/home/alberto/.nuget/packages/grpc.core.api/2.65.0/grpc.core.api.2.65.0.nupkg.sha512",
     "/home/alberto/.nuget/packages/grpc.net.client/2.65.0/grpc.net.client.2.65.0.nupkg.sha512",

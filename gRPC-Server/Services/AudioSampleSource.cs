@@ -53,7 +53,7 @@ public class AudioSampleSource : IAudioSampleSource, IDisposable
             var time = realTimeStart + stream.Position;
             var audioSample = new AudioSample
             {
-                Timestamp = time.ToString("o"),
+                Timestamp = time.ToString(),
                 Data = ByteString.CopyFrom(buffer)
             };
             OnAudioSampleCreated(audioSample);
