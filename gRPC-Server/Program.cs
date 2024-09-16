@@ -18,7 +18,7 @@ builder.WebHost.ConfigureKestrel(options =>
 builder.Services.AddCors();
 
 builder.Services.AddGrpc();
-builder.Services.AddSingleton<IAudioSampleSource>(new AudioSampleSource(@"./Wav/audio.wav"));
+builder.Services.AddSingleton<IAudioSampleSource>(new AudioSampleSource(@"Wav/audio.wav"));
 
 var app = builder.Build();
 
