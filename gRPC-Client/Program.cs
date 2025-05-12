@@ -39,9 +39,13 @@ using GrpcAudioStreaming;
     {
         using var audioPlayer = new AudioPlayer(format.ToWaveFormat());
         audioPlayer.Play(); 
+        Console.WriteLine("Playback started.");
         
         await foreach (var sample in audioStream.ResponseStream.ReadAllAsync())
         {
             audioPlayer.AddSample(sample.Data.ToByteArray());
+            Console.WriteLine("Next ByteArray being reproduced.");
         }
+
+        Console.WriteLine("Ranom");
     }

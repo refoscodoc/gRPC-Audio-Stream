@@ -74,3 +74,5 @@
 /home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.pdb
 /home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/gRPC-Server.genruntimeconfig.cache
 /home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/Debug/net6.0/ref/gRPC-Server.dll
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net6.0\gRPC-Server.dll
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net6.0\gRPC-Server.pdb

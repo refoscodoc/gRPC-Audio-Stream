@@ -1156,32 +1156,45 @@
     ]
   },
   "packageFolders": {
-    "/home/alberto/.nuget/packages/": {}
+    "C:\\Users\\mezza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj",
+      "projectUniqueName": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\gRPC-Server\\gRPC-Server.csproj",
       "projectName": "gRPC-Server",
-      "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/gRPC-Server.csproj",
-      "packagesPath": "/home/alberto/.nuget/packages/",
-      "outputPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/gRPC-Server/obj/",
+      "projectPath": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\gRPC-Server\\gRPC-Server.csproj",
+      "packagesPath": "C:\\Users\\mezza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\gRPC-Server\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/alberto/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mezza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexusrepo.aruba.it/repository/nuget-arch/": {},
+        "https://nexusrepo.aruba.it/repository/nuget-devspa-progettigenerali/": {},
+        "https://proget.staff.aruba.it/nuget/DEVELOPMENT": {},
+        "https://proget.staff.aruba.it/nuget/ExternalLibs/": {},
+        "https://proget.staff.aruba.it/nuget/PRODUCTION": {},
+        "https://proget.staff.aruba.it/nuget/STABLE/": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj": {
-              "projectPath": "/home/alberto/RiderProjects/gRPC-Audio-Stream/cscore-master/CSCore/CSCore.csproj"
+            "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\cscore-master\\CSCore\\CSCore.csproj": {
+              "projectPath": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\cscore-master\\CSCore\\CSCore.csproj"
             }
           }
         }
@@ -1190,7 +1203,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1250,7 +1269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/alberto/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
