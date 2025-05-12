@@ -54,3 +54,8 @@ C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\refi
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\gRPC-Client.pdb
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\gRPC-Client.genruntimeconfig.cache
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\ref\gRPC-Client.dll
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\bin\Debug\net8.0\CSCore.staticwebassets.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\bin\Debug\net8.0\gRPC-Server.staticwebassets.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\bin\Debug\net8.0\gRPC-Client.staticwebassets.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Client\obj\Debug\net8.0\staticwebassets\msbuild.gRPC-Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

@@ -47,5 +47,10 @@ using GrpcAudioStreaming;
             Console.WriteLine("Next ByteArray being reproduced.");
         }
 
-        Console.WriteLine("Ranom");
+        var random = new Random();
+
+        for(int i = 0; i < 100; i++)
+        {
+            Console.WriteLine(random.Next(0, 100));
+        }
     }

@@ -51,3 +51,7 @@ C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\refi
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\gRPC-Server.pdb
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\gRPC-Server.genruntimeconfig.cache
 C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\ref\gRPC-Server.dll
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\bin\Debug\net8.0\CSCore.staticwebassets.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\bin\Debug\net8.0\gRPC-Server.staticwebassets.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\mezza\RiderProjects\gRPC-Audio-Stream\gRPC-Server\obj\Debug\net8.0\staticwebassets\msbuild.gRPC-Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

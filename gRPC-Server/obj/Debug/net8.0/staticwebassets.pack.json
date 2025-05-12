@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\gRPC-Server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\gRPC-Server.bundle.scp.css",
-      "PackagePath": "staticwebassets\\gRPC-Server.bundle.scp.css"
+      "PackagePath": "staticwebassets\\gRPC-Server.1s22vepcsb.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\mezza\\RiderProjects\\gRPC-Audio-Stream\\gRPC-Server\\wwwroot\\css\\site.css",
@@ -255,6 +255,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.gRPC-Server.props",
       "PackagePath": "buildTransitive\\gRPC-Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.gRPC-Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.gRPC-Server.Microsoft.AspNetCore.StaticWebAssets.props",
