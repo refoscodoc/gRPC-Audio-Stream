@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Google.Protobuf.WellKnownTypes;
@@ -44,4 +45,6 @@ using GrpcAudioStreaming;
         {
             audioPlayer.AddSample(sample.Data.ToByteArray());
         }
+
+        Console.WriteLine("other random message");
     }
